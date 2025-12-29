@@ -24,9 +24,9 @@ def qe_calc(pseudopot_path="../qe_inputs/pseudopotentials"):
     }
 
     pseudopotentials = {
-        "Cr": "Cr_pbe_v1.5.uspp.F.UPF",
-        "Al": "al_pbe_v1.5.uspp.F.UPF",
-        "C":  "C_pbe_v1.5.uspp.F.UPF"
+        "Cr": "cr_pbe_v1.5.uspp.F.UPF",
+        "Al": "al_pbe_v1.uspp.F.UPF",
+        "C":  "c_pbe_v1.2.uspp.F.UPF"
     }
 
     return Espresso(input_data=input_data,
